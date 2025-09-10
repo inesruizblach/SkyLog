@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+venv/
+.env
+
+# Node / React
+node_modules/
+dist/
+build/
+*.log
+
+# System / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Project-specific
+backend/data.json
