@@ -1,7 +1,18 @@
 # 🌦 SkyLog
 
-SkyLog is a weather-powered daily journal. It lets you check live forecasts, write personal notes, and revisit your climate history — all in one simple app.  
-
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/home-screenshot.png" alt="SkyLog Home" width="400"/>
+    </td>
+    <td width="50%">
+      <p>
+        <b>SkyLog</b> is a weather-powered daily journal.<br>
+        It lets you check live forecasts, write personal notes, and revisit your climate history — all in one simple app.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## ✨ Features
 - 🔍 Search real-time weather by city (OpenWeather API)  
@@ -19,6 +30,17 @@ SkyLog is a weather-powered daily journal. It lets you check live forecasts, wri
 - Python 3.10+  
 - Node.js 20+ & npm 9+ (for frontend)  
 - Optional: Conda environment 
+
+## Demos
+
+<p align="center">
+  <em>1. Home page with the search field filled in — ready to look for the weather for your chosen city.</em>
+  <img src="docs/home-firstsearch-screenshot.png" alt="First Search" width="350"/><br>
+</p>
+<p align="center">
+  <em>2. After searching: view live weather details and your recent search history.</em>
+  <img src="docs/weather-history-screenshot.png" alt="Weather & History" width="350"/><br>
+</p>
 
 ## 📂 Project Structure
 ```
@@ -107,7 +129,7 @@ OPENWEATHER_API_KEY=your_real_api_key_here
 ## 🚀 Running the App
 - Start backend:
 ```bash
-cd backend
+cd backendz
 uvicorn app:app --reload
 ```
 - Start frontend:
@@ -116,12 +138,6 @@ cd frontend
 npm run dev
 ```
 - Open browser at [http://localhost:5173](http://localhost:5173)
-
-## 📸 Screenshots
-
-| Search Weather | Add Notes | History |
-|----------------|-----------|---------|
-| ![screenshot1](docs/search.png) | ![screenshot2](docs/notes.png) | ![screenshot3](docs/history.png) |
 
 ## 📜 License
 This project is open source and available under the [MIT License](LICENSE).
